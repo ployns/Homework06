@@ -13,6 +13,8 @@ int main()
 			printf("normal\n");
 		else if (a >= 165 && a < 250)
 			printf("tall\n");
+		else
+			printf("error\n");
 	}
 	else {
 		printf("error\n");
